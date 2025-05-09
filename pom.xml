@@ -4,6 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
                              http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+
     <groupId>labxx.sict.must.edu.mn</groupId>
     <artifactId>calculator</artifactId>
     <version>1.0-SNAPSHOT</version>
@@ -72,7 +73,7 @@
                             <goal>report</goal>
                         </goals>
                     </execution>
-                    <!-- Enforce 100% branch coverage -->
+                    <!-- ✅ Enforce 100% branch coverage -->
                     <execution>
                         <id>check</id>
                         <goals>
@@ -97,4 +98,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>
